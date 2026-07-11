@@ -11,6 +11,14 @@
   width: min(100% - 40px, 1500px);
   margin-inline: auto;
 }
+
+.heading-primary {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  padding: 60px 0;
+}
+
 h1,
 h2,
 h3,
@@ -95,4 +103,48 @@ button {
 }
 .hero-content .btn-primary {
   margin-top: auto;
+}
+
+/* speakers Section */
+.speakers {
+  padding: 40px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 33px;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+  height: 460px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-description {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 5px;
+}
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.card-content p {
+  font-size: 14px;
+  color: #575757;
 }
