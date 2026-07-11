@@ -48,7 +48,7 @@ button {
 
 hr {
   border: none;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #e5e7eb72;
   margin: 20px 0;
 }
 
@@ -268,11 +268,6 @@ hr {
   transition: 0.3s ease;
 }
 
-.track-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
-}
-
 .track-icon {
   width: 60px;
   height: 60px;
@@ -295,4 +290,33 @@ hr {
 .track-card p {
   color: #575757;
   line-height: 1.7;
+}
+
+/* footer */
+.footer {
+  background-color: #0d1b2a;
+  padding: 40px 0;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icons {
+  color: white;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right p {
+  color: #888888;
+}
+.footer-right a {
+  text-decoration: none;
+  color: #888888;
+  padding-right: 15px;
 }
