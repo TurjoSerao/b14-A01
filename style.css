@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* reuseable classes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   width: min(100% - 40px, 1500px);
   margin-inline: auto;
@@ -17,16 +22,19 @@ button {
 .btn-primary {
   background-color: #1d4ed8;
   color: white;
-  padding: 8px 20px;
+  padding: 12px 24px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
+/* header */
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
 
 .logo {
