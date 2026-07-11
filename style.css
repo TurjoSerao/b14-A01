@@ -1,0 +1,50 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* reuseable classes */
+.container {
+  width: min(100% - 40px, 1500px);
+  margin-inline: auto;
+}
+h1,
+h2,
+h3,
+p,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.btn-primary {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 130px;
+  height: 45px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav {
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  color: #575757;
+}
