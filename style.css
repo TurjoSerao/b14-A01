@@ -128,7 +128,7 @@ hr {
 
 .cards {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, 1fr);
   gap: 33px;
   padding-top: 40px;
 }
@@ -168,10 +168,11 @@ hr {
 /* pricing section */
 .pricing {
   padding: 60px 0;
+  background-color: #f8fafc;
 }
 .pricing-cards {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
@@ -212,13 +213,7 @@ hr {
 }
 
 .btn {
-  background-color: #1d4ed8;
-  color: white;
-  padding: 12px 24px;
   width: 100%;
-  border: 1px solid #1d4ed8;
-  border-radius: 5px;
-  cursor: pointer;
   margin-top: 20px;
 }
 
@@ -251,4 +246,53 @@ hr {
 
 .price-card ul li::marker {
   color: #2563eb;
+}
+
+/* Conference Tracks */
+
+.tracks {
+  padding: 60px 0;
+}
+
+.track-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.track-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+  padding: 30px;
+  transition: 0.3s ease;
+}
+
+.track-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+.track-icon {
+  width: 60px;
+  height: 60px;
+  background: #eff6ff;
+  color: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.track-card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #0d1b2a;
+}
+
+.track-card p {
+  color: #575757;
+  line-height: 1.7;
 }
