@@ -16,7 +16,6 @@
   font-size: 56px;
   font-weight: bold;
   text-align: center;
-  padding: 60px 0;
 }
 
 h1,
@@ -34,6 +33,23 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #1d4ed8;
+  padding: 12px 24px;
+  width: 100%;
+  border: 1px solid #1d4ed8;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 20px 0;
 }
 
 /* header */
@@ -107,19 +123,19 @@ button {
 
 /* speakers Section */
 .speakers {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .cards {
   display: grid;
   grid-template-columns: auto auto;
   gap: 33px;
+  padding-top: 40px;
 }
 
 .card {
   border: 1px solid #e5e7eb;
   border-radius: 15px;
-  height: 460px;
 }
 
 .card img {
@@ -147,4 +163,92 @@ button {
 .card-content p {
   font-size: 14px;
   color: #575757;
+}
+
+/* pricing section */
+.pricing {
+  padding: 60px 0;
+}
+.pricing-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+}
+
+.sub-heading {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.price-card {
+  padding: 40px 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+}
+.price-card h2 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+
+.price-card p {
+  font-size: 13px;
+  color: #888888;
+  font-weight: 500;
+}
+
+.price-card ul {
+  margin-left: 20px;
+}
+.price-card ul li {
+  font-size: 14px;
+  color: #333333;
+
+  padding-bottom: 10px;
+}
+
+.price-card ul li::marker {
+  color: #2563eb;
+}
+
+.btn {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 12px 24px;
+  width: 100%;
+  border: 1px solid #1d4ed8;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.feature-price {
+  background-color: #0d1b2a;
+  padding: 40px 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+}
+
+.feature-price h2 {
+  font-size: 44px;
+  font-weight: bold;
+  color: white;
+}
+
+.feature-price p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.feature-price ul {
+  margin-left: 20px;
+}
+.feature-price ul li {
+  font-size: 14px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.price-card ul li::marker {
+  color: #2563eb;
 }
