@@ -56,3 +56,43 @@ button {
   font-size: 16px;
   color: #575757;
 }
+
+/* hero section */
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  /* justify-content: center;
+  align-items: flex-start; */
+}
+
+.hero-content {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content h1 {
+  font-size: 80px;
+  line-height: 1.1;
+  color: white;
+}
+.hero-content p {
+  max-width: 700px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+.hero-content .btn-primary {
+  margin-top: auto;
+}
